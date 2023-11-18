@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Recipes for you</title>
-    </head>
-    <body>
+
+<head>
+    <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes for you</title>
+</head>
+
+<body>
+    <header>
         <h1>Odin Recipes</h1>
         <p>Welcome to our and your meal course</p>
-        <!-- soup -->
-        <a href="recipes/chicken-soup.html">
-            <div class="chicken-soup">
-                <h3>Soup: Chicken Soup</h3>
-                <img 
-                src="https://www.allrecipes.com/thmb/zmNZf_erktCdZV6tTlynLBlj0Wg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/9139229-87abfabfbabb41c89069c83a1d023f45.jpg" 
-                alt="Yummy chicken soup" width="512" height="512">
-            </div>
-        </a>
+        <h2>Try the following recipes!</h2>
+    </header>
+
+    <!-- soup -->
+    <div class="container">
+        <div class="recipe">
+            <a href="recipes/chicken-soup.html">
+                <img src="https://www.allrecipes.com/thmb/zmNZf_erktCdZV6tTlynLBlj0Wg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/9139229-87abfabfbabb41c89069c83a1d023f45.jpg"
+                    class="chicken-soup-img" alt="Yummy chicken soup" width="512" height="512">
+                <h3 class="title">Soup: Chicken Soup</h3>
+
+            </a>
+        </div>
 
         <!-- side dish -->
-        <a href="recipes/fish-and-chip.html">
-            <div class="fish-chips">
+        <div class="recipe">
+            <a href="recipes/fish-and-chip.html">
+                <img src="https://www.thespruceeats.com/thmb/n-QHxbubDjqDFeeQkUCA5QZDmsI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/best-fish-and-chips-recipe-434856-Hero-5b61b89346e0fb00500f2141.jpg"
+                    alt="Classic fish and chips" width="512" height="512">
                 <h3>Side dish: Classic Fish and Chips</h3>
-                <img 
-                src="https://www.thespruceeats.com/thmb/n-QHxbubDjqDFeeQkUCA5QZDmsI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/best-fish-and-chips-recipe-434856-Hero-5b61b89346e0fb00500f2141.jpg" 
-                alt="Classic fish and chips" width="512" height="512">
-            </div>
-        </a>
+
+            </a>
+        </div>
 
 
         <!-- dessert -->
-        <a href="recipes/creme-brulee.html">
-            <div class="brulee">
+        <div class="recipe">
+            <a href="recipes/creme-brulee.html">
+                <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7753673.jpg&q=60&c=sc&orient=true&poi=auto&h=512"
+                    alt="Simple creme brulee" width="512" height="512">
                 <h3>Dessert: Creme Brulee</h3>
-                <img 
-                src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7753673.jpg&q=60&c=sc&orient=true&poi=auto&h=512" 
-                alt="Simple creme brulee" width="512" height="512">
-            </div>
-        </a>
+            </a>
+        </div>
+        
+    </div>
 
-    </body>
+
+</body>
 
 
 </html>
