@@ -37,6 +37,7 @@ header p {
     height: 200px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px darkred;
+    max-width: 33%;
 }
 
 .container img:hover {
