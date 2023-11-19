@@ -38,6 +38,7 @@ header p {
     border-radius: 10px;
     box-shadow: 0px 0px 10px darkred;
     max-width: 100%;
+    max-height: 100%;
 }
 
 .container img:hover {
@@ -59,4 +60,3 @@ a:hover {
     color: chocolate;
     transition: 0.9s;
 }
-
